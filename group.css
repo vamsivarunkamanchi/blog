@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Roman Reigns | The Tribal Chief</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000, #1a0000);
+    color: white;
+}
+
+header {
+    background-color: darkred;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    color: gold;
+    border-bottom: 2px solid gold;
+    padding-bottom: 5px;
+}
+
+.content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.content img {
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px red;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: gray;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Roman Reigns</h1>
+    <p>The Tribal Chief | Head of the Table</p>
+</header>
+
+<section>
+    <h2>Career Overview</h2>
+    <div class="content">
+        <img src="https://images2.minutemediacdn.com/image/upload/c_crop,w_1199,h_674,x_0,y_0/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/wrestling_on_fannation/01j7spfrs5xv2t5pq2ba.jpg">
+        <p>
+        Roman Reigns is one of WWE’s greatest superstars. Rising from The Shield,
+        he became the leader of The Bloodline and dominated WWE with historic title reigns.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Championships & Titles</h2>
+    <div class="content">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwbmtrteNwmeyJQjVPzvrGWWDN-dtGvBVeWg&s">
+        <ul>
+            <li>4× Universal Champion</li>
+            <li>3× WWE Champion</li>
+            <li>Intercontinental Champion</li>
+            <li>United States Champion</li>
+            <li>Royal Rumble Winner (2015)</li>
+        </ul>
+    </div>
+</section>
+
+<section>
+    <h2>Movies & Media</h2>
+    <div class="content">
+        <img src="https://i.ytimg.com/vi/RJTD91CdhCw/sddefault.jpg">
+        <p>
+        Roman Reigns expanded his career into Hollywood, appearing in blockbuster
+        movies like Hobbs & Shaw and animated films, proving his crossover appeal.
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2>Legendary Winning Moments</h2>
+    <div class="content">
+        <img src="https://static.toiimg.com/thumb/msid-61996143,width-400,resizemode-4/61996143.jpg">
+    <ul>
+        <li>Defeated The Undertaker at WrestleMania 33</li>
+        <li>Unified WWE & Universal Titles at WrestleMania 38</li>
+        <li>Dominated Brock Lesnar, John Cena, Edge</li>
+        <li>Longest Universal Title reign of the modern era</li>
+    </ul>
+    </div>
+</section>
+
+<footer>
+    © 2026 Roman Reigns Fan Blog | Acknowledge Him ☝️
+</footer>
+
+</body>
+</html>
