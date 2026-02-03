@@ -36,6 +36,7 @@ h2 {
     display: flex;
     gap: 30px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content img {
@@ -44,8 +45,24 @@ h2 {
     box-shadow: 0 0 15px red;
 }
 
+.video-box iframe {
+    width: 560px;
+    height: 315px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px gold;
+}
+
 ul {
     line-height: 1.8;
+}
+
+/* IMAGE SLIDER STYLE */
+.slider img {
+    width: 250px;
+    height: 150px;
+    margin: 0 15px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px gold;
 }
 
 footer {
@@ -104,12 +121,39 @@ footer {
     <h2>Legendary Winning Moments</h2>
     <div class="content">
         <img src="https://static.toiimg.com/thumb/msid-61996143,width-400,resizemode-4/61996143.jpg">
-    <ul>
-        <li>Defeated The Undertaker at WrestleMania 33</li>
-        <li>Unified WWE & Universal Titles at WrestleMania 38</li>
-        <li>Dominated Brock Lesnar, John Cena, Edge</li>
-        <li>Longest Universal Title reign of the modern era</li>
-    </ul>
+        <ul>
+            <li>Defeated The Undertaker at WrestleMania 33</li>
+            <li>Unified WWE & Universal Titles at WrestleMania 38</li>
+            <li>Dominated Brock Lesnar, John Cena, Edge</li>
+            <li>Longest Universal Title reign of the modern era</li>
+        </ul>
+    </div>
+</section>
+
+<!-- IMAGE SLIDER SECTION -->
+<section>
+    <h2>Roman Reigns Image Slider</h2>
+    <marquee behavior="scroll" direction="left" scrollamount="6">
+        <div class="slider">
+            <img src="https://wallpapercave.com/wp/wp2512939.jpg">
+            <img src="https://w0.peakpx.com/wallpaper/766/856/HD-wallpaper-roman-reigns-2021-wrestlemania.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBnfBzZTgw4VBwAVDNVXYYe9a1ZoU_Sd6wTw&s">
+            <img src="https://st4.depositphotos.com/1694341/19879/i/1600/depositphotos_198794978-stock-photo-los-angeles-jun-roman-reigns.jpg">
+            <img src="https://cdn.displate.com/artwork/270x380/2024-09-05/61151d0303f0fa60c06c05dd60da4a8c_9bb9684c8e10f5d4779c6d39d0094c6e.jpg">
+        </div>
+    </marquee>
+</section>
+
+<!-- VIDEO SECTION -->
+<section>
+    <h2>Legendary Moments Video</h2>
+    <div class="content video-box">
+        <iframe 
+            src="./Ratata Theme _ WhatsApp status _ Undisputed champion.mp4"
+            title="Roman Reigns Highlights"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
     </div>
 </section>
 
